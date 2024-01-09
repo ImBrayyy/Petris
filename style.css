@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #414141;
+}
+
+#canvasContainer {
+    text-align: center;
+}
+
+canvas {
+    background-color: #000;
+    border: 2px solid rgba(57,82,138);
+}
+
+.infoLabel {
+    font-size: 24px;
+    color: white;
+    margin: 0; /* Remove default margin */
+}
+
+
+
+#nextPieceContainer {
+    position: relative;
+}
+
+#nextPieceCanvas {
+    display: block;
+    margin-top: 0; 
+    margin-bottom: 0; 
+}
+
+#storedPieceContainer {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#storedPieceCanvas {
+    display: block;
+    margin-top: 0; 
+    margin-bottom: 0; 
+}
+
+.label {
+    color: white;
+    text-align: center;
+    font-size: 30px; 
+    margin-top: 10px;
+}
