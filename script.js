@@ -19,7 +19,7 @@ let nextPiece;
 let totalLineCount = 0;
 
 let level = 0;
-let levelSpeeds = [1000,900,810,729,656,590,500,250]
+let levelSpeeds = [1000,950,900,810,780,729,656,590,500,400,300,250]
 
 function drawNextPiece(nextPiece) {
     nextPieceCtx.clearRect(0, 0, nextPieceCanvas.width, nextPieceCanvas.height);
