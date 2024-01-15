@@ -420,9 +420,9 @@ function dropPlayer() {
     if(collide(arena,player)) {
         player.pos.y--;
         merge(arena,player);
-        playerReset();
         arenaSweep();
         updateScore()
+        playerReset();
     }
 
     dropCounter = 0;
@@ -438,9 +438,9 @@ function quickDrop() {
 
     // Merge, reset, sweep, and update score
     merge(arena, player);
-    playerReset();
     arenaSweep();
     updateScore();
+    playerReset();
 
     dropCounter = 0;
 }
